@@ -1,3 +1,27 @@
 /**
 * Your CSS here
 **/
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+    color: #0367A6
+}
+
+.dark{
+    background-color: #024873
+}
+
+h1{
+    font-family: 'Cutive Mono', monospace;
+    color: #012340
+}
+
+h2{
+    font-family: 'Dosis', sans-serif;
+    color: #F2E41D
+}
+
+h3{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color: #F28729
+}

@@ -30,12 +30,10 @@ Visit [Beyond The Art](https://www.beyondtheart.com) to get involved with the Ar
 
 ## FASHION
 
-![''](./static/images/fashion1.jpg)
-
-Reviews on the best shops in Japan:
+!['a girl with pink hair in two braids with a black cap, black longsleeve top, a red knee-length skirt and black platform boots'](./static/images/fashion1.jpg)
 
 *Archive Store, Shibuya*
-> 'Beautiful underground store for fans of famous Japanese designers like Raf Simons' - 
+> 'Beautiful underground store for fans of famous Japanese designers like Raf Simons. Tokyo is full of amazing clothing stores thriving with passion'
 
 ## CULTURE
 
@@ -43,10 +41,10 @@ Reviews on the best shops in Japan:
 
 ## EXPERIENCE
 
-![''](./static/images/experience.jpg)
+!['the busy streets of Tokyo shown with many neon signs and stores'](./static/images/experience.jpg)
 
-To conclude, The culture is very different to ours , so you can experience a way of life that is new and inspiring
+To conclude, The culture is very different to ours , so you can experience a way of life that is new and inspiring. If you are worried about managing being in a culture foreign to you and you can't afford a tour guide be sure to check out the VirtualGuide app
 
-## VirtualGuide App
+### VirtualGuide App
 
-### If you are worried about being 
+This app uses Artificial Intelligence to create a virtual tour guide who will answer any questions you have involving your trip to Tokyo. It will use your location to give you information about the things around you and things that you can do. It includes an in-built translator so that the language barrier will not be a problem for you.
