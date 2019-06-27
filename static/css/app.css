@@ -3,25 +3,81 @@
 **/
 
 body{
-    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 1px 1px 1px;
+    font-family: 'Muli', sans-serif;
     color: rgb(184, 195, 202)
 }
 
 .dark{
-    background-color:  #012340
+    background-color: #012340;
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
+    linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    
+}
+
+.paddedbox{
+    padding-top: 10px
+}
+.links{
+    background-color: #95A2C7
+}
+
+.no-background{
+    background-color: transparent
+}
+
+.poster-image{
+    display: grid;
+}
+
+.poster-image h2{
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    z-index: 2;
+}
+
+.poster-image img{
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    z-index: 1;
+}
+
+.gallery{
+    display: flex;
+}
+
+.gallery img{
+    flex-shrink: 0;
+    margin-right: 10px;
+    object-fit: fill;
+    height: 200px;
+}
+
+.gallery-window{
+    overflow: scroll;
+    width: 375px
 }
 
 h1{
-    font-family: 'Cutive Mono', monospace;
-    color:#024873
+    display: inline-block;
+    background-color: #012340;
+    font-family: 'Muli', sans-serif;
+    color:#024873;
+    font-size: 58px
 }
 
 h2{
+    display: inline-block;
+    background-color: #012340;
     font-family: 'Dosis', sans-serif;
     color: #F2E41D
 }
 
 h3{
+    display: inline-block;
+    background-color: #012340;
     font-family: 'Encode Sans Expanded', sans-serif;
     color: #F28729
 }
