@@ -4,16 +4,16 @@
 
 body{
     font-family: 'Rajdhani', sans-serif;
-    color: #0367A6
+    color: rgb(184, 195, 202)
 }
 
 .dark{
-    background-color: #024873
+    background-color:  #012340
 }
 
 h1{
     font-family: 'Cutive Mono', monospace;
-    color: #012340
+    color:#024873
 }
 
 h2{
