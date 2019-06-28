@@ -8,13 +8,37 @@ body{
     color: rgb(184, 195, 202)
 }
 
+@keyframes colorfade{
+    from{
+        transform: translateY(5px);
+    }
+    to{
+        transform: translateY(-5px);
+    }
+}
+
 .dark{
+    text-shadow: 1px 1px 1px;
+    font-family: 'Muli', sans-serif;
+    color: rgb(184, 195, 202);
     background-color: #012340;
     background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
     linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
     
+}
+
+.light{
+    text-shadow: 1px 1px 1px;
+    font-family: 'Muli', sans-serif;
+    color: rgb(44, 46, 51);
+    background:
+    linear-gradient(-45deg, #F7F2EF 25%, transparent 25%, transparent 75%, #50A5FF 75%, #50A5FF) 0 0,
+    linear-gradient(-45deg, #50A5FF 25%, transparent 25%, transparent 75%, #F7F2EF 75%, #F7F2EF) 1em 1em,
+    linear-gradient(45deg, #50A5FF 17%, transparent 17%, transparent 25%, #50A5FF 25%, #50A5FF 36%, transparent 36%, transparent 64%, #50A5FF 64%, #50A5FF 75%, transparent 75%, transparent 83%, #50A5FF 83%) 1em 1em;
+    background-color: #F7F2EF;
+    background-size: 2em 2em;
 }
 
 .paddedbox{
@@ -24,7 +48,8 @@ body{
     background-color: #95A2C7
 }
 
-.no-background{
+.dark .no-background,
+.light h2.no-background{
     background-color: transparent
 }
 
@@ -60,24 +85,48 @@ body{
     width: 375px
 }
 
-h1{
+.dark h1{
     display: inline-block;
     background-color: #012340;
     font-family: 'Muli', sans-serif;
     color:#024873;
-    font-size: 58px
+    font-size: 58px;
+    animation: colorfade .5s ease infinite alternate
 }
 
-h2{
+.light h1{
+    display: inline-block;
+    background-color: #F7F2EF;
+    font-family: 'Muli', sans-serif;
+    color: #5D6780;
+    font-size: 58px;
+    animation: colorfade .5s ease infinite alternate
+}
+
+.dark h2{
     display: inline-block;
     background-color: #012340;
     font-family: 'Dosis', sans-serif;
     color: #F2E41D
 }
 
-h3{
+.light h2{
+    display: inline-block;
+    background-color: #F7F2EF;
+    font-family: 'Dosis', sans-serif;
+    color: #FFC74F
+}
+
+.dark h3{
     display: inline-block;
     background-color: #012340;
     font-family: 'Encode Sans Expanded', sans-serif;
     color: #F28729
+}
+
+.light h3{
+    display: inline-block;
+    background-color: #F7F2EF;
+    font-family: 'Dosis', sans-serif;
+    color: #6286B6
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Let's go to...</title>
+    <title>The Tokyo Experience</title>
     <link rel="stylesheet" href="./static/css/milligram.css" />
     <link rel="stylesheet" href="./static/css/defaults.css" />
     <link rel="stylesheet" href="./static/css/app.css" />
@@ -52,6 +52,7 @@
                     <img src="./static/images/art2.jpg" alt="&#39;a sillouhette standing infront of a light show&#39;">
                     <img src="./static/images/art3.jpg" alt="&#39;a woman standing amid icy white lights&#39;">
                     <img src="./static/images/image.jpg" alt="&#39;green exhibit&#39;">
+                    <img src="./static/images/technicolour.jpg" alt="&#39;technicolour exhibit with geometric lights&#39;">
                 </div>
             </div>
             <div class="paddedbox">
@@ -80,5 +81,17 @@
             <p>This app uses Artificial Intelligence to create a virtual tour guide who will answer any questions you have involving your trip to Tokyo. It will use your location to give you information about the things around you and things that you can do. It includes an in-built translator so that the language barrier will not be a problem for you.</p>
         </section>
     </main>
+    <script type="application/javascript">
+        document.querySelectorAll('.theme-control').forEach((e) => {
+            e.addEventListener("click", () => {
+                let theme = 'dark';
+                if (e.id === 'theme-light') {
+                    theme = 'light';
+                }
+                document.querySelector('body').className = theme;
+                // console.log(e);
+            });
+        })
+    </script>
 </body>
 </html>
